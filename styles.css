@@ -1,59 +1,27 @@
-.main>div{
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-}
-.left{
-  width: 50%;
-}
-.{
-  width: 50%;
-}
-#container1{
-  height: 100%;
-  width: 80%;
-  margin: auto;
-  background-color: rgb(167, 210, 203);
-}
 img{
-  height: 140px;
-  width: 125px;
+	width:100%;
 }
-.up-body>div{
-  display: flex;
-  padding: 20px;
-  justify-content: space-between;
+.tag1{
+	display:flex;
 }
-.Profile{
-  margin-left: 20px;
+.tag2{
+	display:flex;
 }
-.down-body{
-  display: flex;
-  flex-direction: column;
+.tag3{
+	display:flex;
 }
-* {box-sizing: border-box}
-
-.container {
-  width: 100%;
-  background-color: #ddd;
+.tag4{
+	width:50%;
 }
-
-.skills {
-  text-align: right;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  color: white;
+.about{
+	width:50%;
 }
-
-.html {width: 90%; background-color: #04AA6D;}
-.css {width: 80%; background-color: #2196F3;}
-.js {width: 65%; background-color: #f44336;}
-.php {width: 60%; background-color: #808080;}
-
-.skill-name{
-  display: flex;
-  justify-content: space-between;
+.tag5{
+	display:flex-warap;
+	padding-left:15px;
+	width:50%;
 }
-.heading{
- text-decoration: underline blue 5px;
+.tag6{
+	width:50%;
+	display:flex-wrap;
 }
